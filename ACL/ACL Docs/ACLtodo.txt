@@ -1,0 +1,24 @@
+ACL todo list 2022/05/10 =====================================================
+
+- Store strings as char* instead of char[].
+
+- Store lambdas as char* instead of char[].
+
+- Implement file I/O for user functions: open, read, write, close.
+
+- fix prim.h for all types (ongoing).
+
+- fix print for all types (ongoing).
+
+- Implement Matricies, Lists and Sets.
+
+- Implement bitwise operators.
+
+- Implement rational and complex numbers.
+
+- Implement recursion.
+
+- Implement case statement [Z <[⋋0][⋋1] ... [⋋n]> n] case => [⋋n(Z)].
+
+- GTK version: console window for interaction. output window for text 
+  and graphics.

@@ -1,0 +1,2 @@
+"Please enter a number:" print get "You entered:" print print
+"Thank you!"print quit

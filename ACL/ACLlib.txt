@@ -1,0 +1,33 @@
+; ACL standard library
+; 2022/05/08
+;
+;silent
+;                         
+;math constants
+3.1415926535 defcon pi
+2.7182818284 defcon eps
+1.4142135623 defcon √2
+;
+;math functions
+[dup *] defun ^2
+[dup dup * *] defun ^3
+[^2 pi *] defun pir^2
+[<1 0 0>] defun uvx                     ;unit vectors
+[<0 1 0>] defun uvy
+[<0 0 1>] defun uvz
+[swap dup ! rotdn swap - ! /] defun nPr
+[dup ! rotdn nPr swap /] defun nCr
+;
+;misc functions
+["enter a value:" print get] defun ask
+;
+;aliases
+[eq] alias =?
+[neq] alias !=?
+[gt] alias >?
+[gte] alias >=?
+[lt] alias <?
+[lte] alias <=?
+[dot] alias .
+;
+;end of file
